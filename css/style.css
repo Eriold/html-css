@@ -1,0 +1,236 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../font/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../font/Montserrat-Regular.otf);
+}
+
+.section {
+    width: 100%;
+    height: 100px;
+}
+
+.one {
+    /* background-color: forestgreen; */
+    height: 100vh;
+    background-image: url("../imagenes/web-desing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* filter:saturate(2); */
+    /* filter: blur(2px); */
+    /* text-align: center; */
+    position: relative;
+}
+
+.one .item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    margin: auto;
+    text-align: center;
+    font-family: Montserrat-Bold;
+    font-size: 250%;
+    color: white;
+    text-shadow: 1px 2px black;
+}
+
+.two {
+    /* background-color: orange; */
+    height: 150vh;
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+.three {
+    /* background: purple; */
+    background: rgb(131, 201, 65);
+    height: 75vh;
+    display: flex;
+    /* justify-content: center;
+    align-content: center; */
+    flex-direction: column;
+    text-align: center;
+}
+
+.four {
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-items {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 70%;
+}
+
+.two .container-items .item {
+    height: 94%;
+    width: 28%;
+    /* background-color: rgb(161, 25, 105); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.two .title {
+    width: 100%;
+    height: 15%;
+    /* background-color:  #0DFFD1; */
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.blod {
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: 50%;
+    margin: auto; */
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 200%;
+    color: rgb(131, 201, 65);
+}
+
+.normal {
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: 0%;
+    margin: auto; */
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 225%;
+    color: rgb(152, 197, 109);
+}
+
+.two .container-items .item .text {
+    text-align: justify;
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    color: rgb(54, 48, 48);
+}
+
+.two .container-items .item .image {
+    display: flex;
+    /* justify-content: space-around; */
+    /* background-color: forestgreen; */
+    margin-top: 15px;
+}
+
+.subtitle {
+    color: rgb(100, 161, 43);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.firts {
+    color: rgb(54, 48, 48);
+    font-family: Montserrat;
+    font-size: 25px;
+    line-height: 3;
+}
+
+.second {
+    color: rgb(54, 48, 48);
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    height: 100%;
+}
+
+.boton {
+    text-decoration: none;
+    padding: 15px 80px;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 3px solid black;
+    line-height: 15;
+}
+
+.boton:hover {
+    /* opacity: 0.6; */
+    color: white;
+    border: 3px solid white;
+    text-decoration: none;
+    cursor: -webkit-grab;
+}
+
+.container-social {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 15%;
+    height: 40%;
+    opacity: 0.5;
+}
+
+.footer {
+    color: rgb(146, 144, 141);
+    font-family: Montserrat-Regular;
+    line-height: 2;
+}
+
+a.bluecircle {
+    display: block;
+    filter: grayscale(100%);
+    height: 32px;
+    position: relative;
+    margin-bottom: 40px;
+    width: 32px;
+}
+
+a.bluecircle:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 32px;
+    height: 32px;
+    background: none;
+}
+
+a.bluecircle:hover:before {
+    background: rgb(119, 165, 76);
+    opacity: 0.6;
+}
+
+a.bluecircle:hover {
+    filter: grayscale(0%);
+}
+
+img {
+    padding: 20px;
+}
